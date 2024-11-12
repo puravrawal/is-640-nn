@@ -28,4 +28,4 @@ for k in range(20):
     for p in n.parameters():
         p.data += -0.1 * p.grad 
 
-    print(k, loss.data)  # Output the epoch index and the loss value
+    print(k, loss.data) 
